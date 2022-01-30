@@ -73,6 +73,18 @@ Pour savoir les **noms de columns** : `df.columns`
 
 Pour extraire des info dans une colonne par exemple: `df.loc[1:4, 'capitale']`. Il existe aussi `iloc[]`, `.at[]` et `.iat[]`.
 
+On peut utiliser `.append()` pour ajouter des colonnes dans le tableau. Il faut bien vérifier l'structure avant d'y mettre. Par exemple l'attribut `name` donne l'ID ou le nom de colonne.
 
+Pour suprimmer, il faut utiliser `.drop()`. Comme par exemple, si on envie de suprimmer la ligne 20: `df.drop([20])`
 
+N'oublier qu'on peut faire des calculs arithmétiques comme `.sum()` et d'autres.
 
+Pour sauvegarder un dataframe avec les mêmes propiétés qu'on a:
+
+```
+# Sauvegarde d'un DataFrame dans un fichier pickle
+df.to_pickle('fichier.pkl')
+
+# Lecture du fichier pickle
+df_file = pd.read_pickle('./fichier.pkl')
+```
