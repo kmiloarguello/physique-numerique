@@ -88,3 +88,41 @@ df.to_pickle('fichier.pkl')
 # Lecture du fichier pickle
 df_file = pd.read_pickle('./fichier.pkl')
 ```
+
+## Opérateurs de comparaison
+
+### les booléens
+
+On a des expressions booléenes: c'est à dire, elles sont vraies ou fausses.
+
+
+```
+print(5 == 5) # True
+
+# ou
+
+print(2 == 4) # False
+```
+
+### Opérateurs
+
+> `==`
+> `!=`
+
+Par exemple `print(15 == 15.0)` c'est `True` même si ce sont deux types de données.
+
+> `>` et `>=`
+> `<` et `<=`
+
+Par exemple : `print(2 < 5. <= 10)` c'est `True`.
+
+On peut aussi comparer avec les listes
+
+```
+my_liste = np.array([1,2,3,4])
+
+print(A > 5) # True
+
+```
+Chaque element doit être plus petite que `5` pour que la condition soit `True`.
+
