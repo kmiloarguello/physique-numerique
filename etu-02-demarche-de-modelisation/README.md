@@ -126,3 +126,36 @@ print(A > 5) # True
 ```
 Chaque element doit être plus petite que `5` pour que la condition soit `True`.
 
+### Opérateurs logiques
+
+**`and`**
+
+```
+x = 11
+x > 10 and x <= 14 # True
+```
+
+Avec Numpy il faut utiliser: `logical_and(bool1, bool2)`. Le sorti c'est aussi un tableau numpy
+
+**`or`**
+
+```
+n = 12
+n % 5 == 0 or n % 6 == 0 # True
+```
+
+Avec Numpy il faut utiliser: `logical_or(bool1, bool2)`
+
+**`not`**
+
+```
+x = 2.
+y = 3
+
+not x > y # True
+```
+Avec Numpy il faut utiliser: `logical_not(bool)`
+
+**NOTE**
+
+Dans numpy on utilise des fois `all()` si tous sont vrais ou `any()` si au moins un élément es vrai.
