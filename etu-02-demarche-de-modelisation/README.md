@@ -159,3 +159,23 @@ Avec Numpy il faut utiliser: `logical_not(bool)`
 **NOTE**
 
 Dans numpy on utilise des fois `all()` si tous sont vrais ou `any()` si au moins un élément es vrai.
+
+## Conditionnelles
+
+```
+
+if:
+ # code
+elif:
+ # code
+else:
+ # code
+
+```
+
+Pour filtrer un tableau Numpy: `A[condition]` avec `A` comme un tableau Numpy.
+
+Pour filtrer dans un Dataframe: `df[condition]` avec `condition = A > 10`
+
+Dans pandas on utilise les opérateurs logiques comme: `&` pour "and", `|` pour "or", et `~` pour "not".
+
