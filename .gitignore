@@ -3,9 +3,14 @@
 etu-02-demarche-de-modelisation/etu-04-exercices.ipynb
 etu-02-demarche-de-modelisation/etu-05-retrogradation-mars.ipynb
 etu-02-demarche-de-modelisation/DataMars.csv
-etu-02-demarche-de-modelisation/europe-ca.csv
 
-etu-03-suites-relations-recurrence/
+
+etu-03-suites-relations-recurrence/etu-02-fonctions.ipynb
+etu-03-suites-relations-recurrence/etu-03-suite-graphique.ipynb
+etu-03-suites-relations-recurrence/etu-04-exercices.ipynb
+etu-03-suites-relations-recurrence/etu-05-mini-projet-logistique.ipynb
+etu-03-suites-relations-recurrence/*.png
+
 etu-04-ajustement-modele/
 etu-05-derivation-integration/
 etu-06-equations-differentielles/
