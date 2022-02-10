@@ -50,8 +50,73 @@ Si on veut obtenir une colonne en particulaire, il faut par exemple dans l'itér
 
 On peut aussi filtrer avec `df.iteritems()` au lieu de `df.iterrows()`. ça va filtrer par colonnes.
 
+## Fonctions
 
+```
+def my_fonction ():
+    print("Hola mundo")
+```
 
+Pour éxecuter la fonction il suffit d'ajouter : `my_fonction()` et voilà.
+
+> Il faut faire attention avec **l'scope** de chaque fonction, où les variables ne sont pas forcément globales.
+
+On peut avoir des fonctions avec paramètres et arguments comme par exemple:
+
+```
+def your_name ( name ):
+    print("Your name is " + name )
+
+my_name("Giulia")
+```
+
+Les fonctions peuvent aussi retourner des valeurs, qu'on pourrait utiliser après, comme par exemple:
+
+```
+def fullname(firstname,lastname):
+    return firstname + " " + lastname
+
+fullname("Giulia","M.")
+```
+
+> N'oublier commenter les fonctions avec les `Docstrings` c'est à dire les `""" something """`.
+
+On peut retourner plusieurs valeurs de chaque fonction. Les valeurs doivent être retourners sous la forme d'une tuple. Exemple `return (a, b, c, d)`. Ainsi que pour obtenir ces variables dehors de la fonction, on peut faire comme ça:
+
+```
+def my_fonction():
+    a = 1
+    b = 2
+    return (a,b)
+
+x, y = my_fontion()
+```
+
+**Lambda**
+
+> C'est très importante 
+
+Pour une fonction en forme *lambda*:
+
+```
+lambda name : "Je suis " + name
+```
+Avec `name` le nom variable et après les `:`, l'instruction.
+
+Si on veut donner une valeur d'entrée:
+
+```
+(lambda name : "Je suis " + name)("Giulia")
+```
+
+Ainsi avec une variable:
+
+```
+best_name = lambda name : "Je suis " + name
+
+best_name("Giulia")
+
+```
 
 
 
