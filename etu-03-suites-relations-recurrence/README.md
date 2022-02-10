@@ -118,6 +118,9 @@ best_name("Giulia")
 
 ```
 
+Un petit remarque des exercices: 
+
+> Il y a la fonction `plt.semilogy()` qui peut plotter sur une grille logaritmique.
 
 
 
