@@ -11,3 +11,4 @@ Le projet est divisé en differents dossiers, chacun avec un fichier `README.md`
 - [etu-01-python-base](https://github.com/kmiloarguello/physique-numerique/tree/master/etu-01-python-base)
 - [etu-02-demarche-de-modelisation](https://github.com/kmiloarguello/physique-numerique/tree/master/etu-02-demarche-de-modelisation)
 - [etu-03-suites-relations-recurrence](https://github.com/kmiloarguello/physique-numerique/tree/master/etu-03-suites-relations-recurrence)
+- [etu-04-ajustement-modele](https://github.com/kmiloarguello/physique-numerique/tree/master/etu-04-ajustement-modele)
