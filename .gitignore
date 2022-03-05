@@ -13,11 +13,9 @@ etu-04-ajustement-modele/*.csv
 etu-04-ajustement-modele/*.dat
 etu-04-ajustement-modele/*.png
 
-etu-05-derivation-integration/etu-02-derivation-integration-exercices.ipynb
 etu-05-derivation-integration/etu-03-mini-projet-digue.ipynb
 etu-05-derivation-integration/*.csv
 etu-05-derivation-integration/*.dat
-etu-05-derivation-integration/*.png
 
 etu-06-equations-differentielles/
 */.ipynb_checkpoints
