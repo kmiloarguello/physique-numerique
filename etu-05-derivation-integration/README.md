@@ -2,10 +2,32 @@
 
 ## Dérivation
 
+Une dérivée mathématiquement est donnée par:
+
+$$
+f'(x) = \lim_{h \to 0} \frac{f(x+h)-f(x)}{h}
+$$
+
+Lorsqu'on peut avoir une approximation numérique de la dérivée d'une fonction dans un ensemble de points. Par exemple, on peut prendre la pente entre deux points comme dérivée d'une fonction de points entre $0$ et $n$.
+
+$$
+y'_i = \frac{y_{i+1}-y_{i}}{x_{i+1}-x_{i}}
+$$
+
+Comme par exemple dans un point `i = 3` d'un ensemble de points jusqu'à `n=10`.
+
+```
+x = np.arange(0, 10)
+y = x ** 2
+
+i = 3
+derivee = (y[i + 1] - y[i]) / (x[i + 1] - x[i])
+```
+
 
 ## Intégration numérique
 
-En python on a différents méthodes numériques pour calculer une intégrale. Chacune va dépendre de la quantité des itérations et valeurs qu'on veut calculer.
+En `python` on a des différents méthodes numériques pour calculer une intégrale. Chacune va dépendre de la quantité des itérations et valeurs qu'on veut calculer.
 
 Par exemple, on peut faire une approximation de la fonction d'intégration $f(x)$ avec l'aide des aires. 
 
